@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power BI Training by Yuvraj Singh Tomar</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Theme Colors */
+        :root {
+            --primary-color: #6a0dad; /* Purple */
+            --secondary-color: #e9e9e9; /* Yellow */
+            --text-color: #ffffff; /* White */
+            --background-color: #f3f3f3; /* Light background */
+        }
+        body {
+            background-color: var(--background-color);
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+        /* Header Section */
+        header {
+            color: #333;
+            padding: 60px 0;
+            text-align: center;
+            position: relative;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        header p {
+            font-size: 1.25rem;
+        }
+        /* Logo Styling */
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 120px; /* Adjust the width of the logo */
+            height: auto;
+        }
+        /* Section Styling */
+        .content-section {
+            padding: 60px 0;
+        }
+        .section-title {
+            color: var(--primary-color);
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        /* Card Styling */
+        .card {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border: none;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card-header {
+            background-color: var(--primary-color);
+            color: var(--text-color);
+            font-weight: bold;
+            border-radius: 8px 8px 0 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .card-body {
+            padding: 20px;
+        }
+        .card img {
+            border-radius: 8px 8px 0 0;
+            height: 200px;
+            object-fit: cover;
+        }
+        /* Button Styling */
+        .btn-primary {
+            background-color: var(--primary-color);
+            color: var(--text-color);
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #5a0c9a;
+        }
+        /* Footer Styling */
+        footer {
+            background-color: var(--primary-color);
+            color: var(--text-color);
+            padding: 20px 0;
+            text-align: center;
+        }
+        /* Perks Section Styling */
+        .perks-section {
+            background-color: #ffffff;
+            padding: 60px 0;
+            text-align: center;
+        }
+        .perks-section h2 {
+            color: #6a0dad;
+        }
+        .perk-item {
+            margin-bottom: 30px;
+        }
+        .perk-icon {
+            font-size: 50px;
+            color: #6a0dad;
+        }
+        .perk-text {
+            font-size: 18px;
+            color: #333;
+            margin-top: 15px;
+        }
+        /* Media Queries for Responsiveness */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            .logo {
+                width: 100px; /* Slightly smaller logo for smaller screens */
+            }
+            .card img {
+                height: 150px; /* Adjust card image height on smaller screens */
+            }
+            .perk-icon {
+                font-size: 40px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            header h1 {
+                font-size: 1.75rem;
+            }
+            .content-section {
+                padding: 30px 0;
+            }
+            .logo {
+                width: 90px; /* Further reduce the logo size */
+            }
+            .card img {
+                height: 120px; /* Further reduce image size on very small screens */
+            }
+            .perk-icon {
+                font-size: 30px;
+            }
+            .perk-text {
+                font-size: 16px; /* Adjust perk text size */
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- Header Section -->
+    <header>
+        <!-- Logo Image -->
+        <img src="logo-removebg-preview.png" alt="Dvertex Information Systems Logo" class="logo"><BR><BR>
+        <h1>Power BI Training Session</h1>
+        <p class="lead">  at Dvertex Information Systems</p>
+        <!-- Download Button Section -->
+        <div class="content-section text-center">
+            <a href="TOPICS OF TRAINING.pdf" class="btn btn-primary" download>Download Session Topics</a>
+        </div>
+    </header>
+        <!-- Session Outline Section -->
+        <div class="content-section">
+            <h2 class="section-title">Training Topics</h2>
+            <div class="container">
+                <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="1.jpg" alt="Introduction to Power BI" class="card-img-top">
+                            <div class="card-header">Introduction to Power BI</div>
+                            <div class="card-body">
+                                <p>Overview of Power BI, data visualization, and its importance in business intelligence.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="2.jpg" alt="Power BI Interface and Components" class="card-img-top">
+                            <div class="card-header">Power BI Interface and Components</div>
+                            <div class="card-body">
+                                <p>Exploring Power BI Desktop, Power BI Service, and Power BI Mobile with key features and functions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="3.png" alt="Connecting and Transforming Data" class="card-img-top">
+                            <div class="card-header">Connecting and Transforming Data</div>
+                            <div class="card-body">
+                                <p>Learn about data sources, data transformation, and using Power Query for clean data.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="4.png" alt="Creating and Customizing Visuals" class="card-img-top">
+                            <div class="card-header">Creating and Customizing Visuals</div>
+                            <div class="card-body">
+                                <p>Master the use of different visual types in Power BI, and learn to customize reports for better insights.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="6.jpg" alt="Data Modeling Basics" class="card-img-top">
+                            <div class="card-header">Data Modeling Basics</div>
+                            <div class="card-body">
+                                <p>Introduction to data modeling, relationships, and calculated columns to enhance your reports.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 6 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="5.png" alt="DAX for Beginners" class="card-img-top">
+                            <div class="card-header">DAX for Beginners</div>
+                            <div class="card-body">
+                                <p>Get started with Data Analysis Expressions (DAX) to perform powerful data manipulations in Power BI.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 7 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="7.jpg" alt="Publishing and Sharing Reports" class="card-img-top">
+                            <div class="card-header">Publishing and Sharing Reports</div>
+                            <div class="card-body">
+                                <p>Learn to publish and share reports in Power BI Service, and explore collaboration features.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 8 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="8.png" alt="Power BI Security and Administration" class="card-img-top">
+                            <div class="card-header">Power BI Security and Administration</div>
+                            <div class="card-body">
+                                <p>Understand security measures, role-based access, and Power BI administration best practices.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 9 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="9.jpg" alt="Integrating Power BI with Other Tools" class="card-img-top">
+                            <div class="card-header">Integrating Power BI with Other Tools</div>
+                            <div class="card-body">
+                                <p>Discover ways to connect Power BI with Excel, SQL, and other external tools for enhanced functionality.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+    <!-- Call to Action Section -->
+    <div class="content-section text-center" style="background-color: var(--secondary-color); color: #333;">
+        <h2>Ready to Enhance Your Skills?</h2>
+        <p>Register now for hands-on training and elevate your Power BI expertise!</p>
+        <a href="#" class="btn btn-primary">Register Now</a>
+    </div>
+
+    <!-- Perks Section -->
+    <div class="perks-section">
+        <h2>Training Perks</h2>
+        <div class="row">
+            <!-- Perk 2 -->
+            <div class="col-md-4 perk-item">
+                <i class="fas fa-laptop perk-icon"></i>
+                <p class="perk-text">Hands-on Practical Experience</p>
+            </div>
+            <!-- Perk 3 -->
+            <div class="col-md-4 perk-item">
+                <i class="fas fa-cloud-download-alt perk-icon"></i>
+                <p class="perk-text">Downloadable Resources & Tools</p>
+            </div>
+            <!-- Perk 4 -->
+            <div class="col-md-4 perk-item">
+                <i class="fas fa-trophy perk-icon"></i>
+                <p class="perk-text">Certificate of Completion</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Yuvraj Singh Tomar. All rights reserved. | Powered by Dvertex Information Systems</p>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
